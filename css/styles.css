@@ -1,0 +1,195 @@
+
+body{
+    font-family: roboto, raleway, sans-serif;
+    font-weight: 400;
+    color: #2E2F42;
+    background: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+
+/* header*/
+
+.header {}
+
+/* reset*/
+ul,ol {
+    list-style: none;
+}
+ 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button{
+    cursor: pointer;
+}
+
+.nav {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5; 
+        }
+
+.header-logo {
+        font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        }
+
+.logo-span {
+    color: #4D5AE5;
+}
+
+.header-list {}
+
+.header-list-item {}
+
+.header-link {}
+
+.address {}
+
+.address-list {
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+        
+}
+
+.address-list-item {}
+
+.address-link {}
+
+/* section one*/
+
+.section {}
+
+.one {
+    background: #2E2F42;
+}
+
+.one-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        color: #FFFFFF;
+}
+
+.one-btn {
+        width: 169px;
+        height: 56px;
+        left: 636px;
+        top: 428px;
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: #FFFFFF;
+}
+
+/* section two*/
+
+.section {}
+
+.two {}
+
+.two-hidden-title {}
+
+.two-list {}
+
+.two-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        
+}
+
+.two-text {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+}
+
+/* section three*/
+
+.section {}
+
+.three {}
+
+.three-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-transform: capitalize;
+}
+
+.three-list {}
+
+.three-list-item {}
+
+/* section four*/
+
+.section {
+    
+}
+
+.four {
+    background: #F4F4FD;
+}
+
+.four-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-transform: capitalize;
+}
+
+.four-list {}
+
+.four-list-item {}
+
+.four-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+}
+
+.four-text {
+    line-height: 1.5;
+        color: #434455;
+}
+
+/* footer*/
+
+.footer {
+    background: #2E2F42;
+}
+
+.footer-span{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+
+.studio-span{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD;
+}
+.footer-text {
+    line-height: 1.5; 
+        color: #F4F4FD;
+}
