@@ -161,7 +161,34 @@ button{
     line-height: 1.5;
         color: #434455;
 }
+/*section5*/
 
+.section {}
+
+.five {}
+
+.filters {}
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+}
+
+.five-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.five-text {
+    color: #434455;
+}
 /* footer*/
 
 .footer {
@@ -194,31 +221,3 @@ button{
         color: #F4F4FD;
 }
 
-.section {}
-
-.five {}
-
-.filters {
-    
-}
-
-.filter-btn {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #4D5AE5;
-        width: 116px;
-        height: 48px;
-        background: #F4F4FD;
-}      
-
-.five-title {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-}
-
-.five-text {
-    color: #434455;
-}
