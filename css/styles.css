@@ -1,8 +1,8 @@
 
 body{
-    font-family: roboto, raleway, sans-serif;
+    font-family: roboto, sans-serif;
     font-weight: 400;
-    color: #2E2F42;
+    color: #434455;
     background: #FFFFFF;
     letter-spacing: 0.02em;
 }
@@ -32,7 +32,7 @@ button{
         }
 
 .header-logo {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -41,10 +41,14 @@ button{
         }
 
 .logo-span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
-.header-list {}
+.header {}
+
+.list {
+    list-style: none
+}
 
 .header-list-item {}
 
@@ -80,13 +84,7 @@ button{
 }
 
 .one-btn {
-        width: 169px;
-        height: 56px;
-        left: 636px;
-        top: 428px;
         background: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
         color: #FFFFFF;
 }
 
