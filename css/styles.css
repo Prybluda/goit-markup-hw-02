@@ -4,7 +4,8 @@
 }
 
 body{
-    font-family: var(--primary-font);
+    font-family: "Roboto",
+        sans-serif;
     font-weight: 400;
     color: #434455;
     background: #FFFFFF;
@@ -23,7 +24,7 @@ ul,ol {
  
 a {
     text-decoration: none;
-    color: currentColor;
+    
 }
 
 button{
@@ -35,6 +36,10 @@ button{
         font-size: 16px;
         line-height: 1.5; 
         }
+.link {
+    color: #2e2f42;
+    text-decoration: none;
+}
 
 .header-logo {
         font-family: 'Raleway', sans-serif;
@@ -58,12 +63,7 @@ button{
 
 .header-list-item {}
 
-.header 
 
-.link {
-    color: #2e2f42;
-    text-decoration: none;
-}
 
 .link:hover,
 .link:focus{
@@ -221,26 +221,10 @@ address {
 }
 
 .footer-span{
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5;
+    color: #F4F4FD;
 }
 
-.studio-span{
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #F4F4FD;
-}
+
 .footer-text {
     line-height: 1.5; 
         color: #F4F4FD;
