@@ -1,12 +1,18 @@
 
 body{
-    font-family: roboto, sans-serif;
+    font-family: "Roboto",
+        sans-serif;
     font-weight: 400;
     color: #434455;
     background: #FFFFFF;
     letter-spacing: 0.02em;
 }
 
+:root{
+--primari-font: "Roboto",
+    sans-serif;
+
+}
 /* header*/
 
 .header {}
@@ -36,6 +42,7 @@ button{
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
+        color: #4d5ae5;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         }
@@ -52,17 +59,23 @@ button{
 
 .header-list-item {}
 
-.header-link {}
+.header 
 
-.address {}
-
-.address-list {
-        font-style: normal;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #434455;
-        
+.link {
+    color: #2e2f42;
+    text-decoration: none;
 }
+
+.link:hover,
+.link:focus{
+    color: #404bbf;
+}
+
+address {
+    font-style: normal;
+}
+
+.address 
 
 .address-list-item {}
 
@@ -173,8 +186,6 @@ button{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    width: 116px;
-    height: 48px;
     background: #F4F4FD;
 }
 
