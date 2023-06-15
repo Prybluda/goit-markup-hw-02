@@ -1,43 +1,34 @@
 :root {
     --primari-font: "Roboto",
         sans-serif;
+    --navyblue-cl: #2e2f42;
+    --slate-cl: #434455;
+    --white-cl: #FFFFFF;
+    --iris-cl: #4d5ae5;
+    --hover-focus-cl: #404bbf;
+    --cloud-cl: #F4F4FD;
 }
 
 body{
-    font-family: "Roboto",
-        sans-serif;
-    font-weight: 400;
-    color: #434455;
-    background: #FFFFFF;
-    letter-spacing: 0.02em;
+    font-family: "Roboto", sans-serif;
+    color: var(--slate-cl);
+    background: var(--white-cl);
 }
 
 
 /* header*/
 
-.header {}
-
 /* reset*/
 ul,ol {
     list-style: none;
 }
- 
-a {
-    text-decoration: none;
-    
-}
-
+  
 button{
     cursor: pointer;
 }
 
-.nav {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5; 
-        }
+.nav {}
 .link {
-    color: #2e2f42;
     text-decoration: none;
 }
 
@@ -46,24 +37,29 @@ button{
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        color: #4d5ae5;
+        color: var(--iris-cl);
         letter-spacing: 0.03em;
         text-transform: uppercase;
         }
 
 .logo-span {
-    color: #2e2f42;
+    color: var(--navyblue-cl);
 }
 
-.header .link{
-    
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-cl);
 }
 
-
+.header-link:hover,
+.header-link:focus {
+color: var(--hover-focus-cl)
+}
 
 .header-list-item {}
-
-
 
 
 address {
@@ -71,12 +67,13 @@ address {
 }
 .address.link {
     line-height: 1.5;
-    color: #434455;
+    letter-spacing: 0.02em;
+    color: var(--slate-cl);
 }
 
-.link:hover,
-.link:focus {
-    color: #404bbf;
+.address.link:hover,
+.address.link:focus {
+    color: var(--hover-focus-cl);
 }
 
 .address-list-item {}
@@ -86,7 +83,7 @@ address {
 .section {}
 
 .one {
-    background: #2E2F42;
+    background: var(--navyblue-cl);
 }
 
 .one-title {
@@ -95,7 +92,7 @@ address {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
+        color: var(--white-cl);
 }
 
 .one-btn {
@@ -104,14 +101,13 @@ address {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background: #4D5AE5;
-        color: #FFFFFF;
+        background: var(--iris-cl);
+        color: var(--white-cl);
 }
 
 .one-btn:hover,
 .one-btn:focus{
-    color: #404bbf;
-    background-color: #404BBF;
+    background-color: var(--hover-focus-cl);
 }
 /* section two*/
 
@@ -129,13 +125,14 @@ address {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color: var(--navyblue-cl);
 }
 
 .two-text {
         font-size: 16px;
         line-height: 1.5;
-        color: #434455;
+        letter-spacing: 0.02em;
+        color: var(--slate-cl);
 }
 
 /* section three*/
@@ -150,7 +147,7 @@ address {
         line-height: 1.11;
         text-align: center;
         text-transform: capitalize;
-        color: #2e2f42;
+        color: var(--navyblue-cl);
 
 }
 
@@ -165,7 +162,7 @@ address {
 }
 
 .four {
-    background: #F4F4FD;
+    background: var(--cloud-cl);
 }
 
 .four-title {
@@ -175,26 +172,27 @@ address {
         line-height: 1.11;
         text-transform: capitalize;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color: var(--navyblue-cl);
 }
 
 .four-list {}
 
 .four-list-item {
-    background-color: #FFFFFF;
+    background-color: var(--white-cl);
 }
 
 .four-name {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-cl);
 }
 
 .four-text {
     line-height: 1.5;
-        color: #434455;
+    letter-spacing: 0.02em;
+    color:var(--slate-cl);
 }
 /*section5*/
 
@@ -210,43 +208,43 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background: #F4F4FD;
+    color: var(--iris-cl);
+    background: var(--cloud-cl);
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-    color:#FFFFFF;
-    background-color: #404BBF;
+    color:var(--white-cl);
+    background-color: var(--hover-focus-cl);
 }
 .five-title{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--navyblue-cl);
 }
 .five-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate-cl);
 }
 /* footer*/
 
 .footer {
-    background: #2E2F42;
+    background: var(--navyblue-cl);
 }
 
 .footer-span{
-    color: #F4F4FD;
+    color: var(--cloud-cl);
 }
 
 
 .footer-text {
-    line-height: 1.5; 
-        color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud-cl);
 }
 
 .list {
