@@ -37,7 +37,7 @@ button{
         line-height: 1.5; 
         }
 .link {
-    color: #2e2f42;
+    color: #434455;
     text-decoration: none;
 }
 
@@ -212,6 +212,7 @@ address {
 .filters {}
 
 .filter-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
