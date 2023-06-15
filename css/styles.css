@@ -70,21 +70,14 @@ button{
     color: #404bbf;
 }
 
-address {
+.address.link {
     font-style: normal;
     line-height: 1.5;
     color: #434455;
 }
 
-address {
-
-}
 
 .address-list-item {}
-
-.address-link{
-    color:#434455;
-}
 
 /* section one*/
 
